@@ -1,48 +1,105 @@
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  
-  body {
-    font: 1.2em/1.2 Helvetica, aria, sans-serif;
-    margin: 0 3%;
-    
-  }
-  
-  h1 {
-    font-size: 1.8em;
-    margin: .9em 0 0 0;
-  }
-  
-  h2 {
-    font-size: 1.5em;
-    margin: 1.5em 0 0 0;
-  }
-  
-  img {
-    max-width: 100%;
-    min-width: 100%; 
-  }
-/* filter (effect) params HERE 👇🏾*/ 
- 
-  
-  figure {
-    border: 5px black solid; 
-    border-radius: 5px;
-    color: white;
-    margin: 0 0 25px 0;
-    padding: 10px;
-    text-align: center;
-    
-  }
-  
-  figcaption {
-    font-size: .8em;
-  }
-  
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font: 1.2em/1.2 Helvetica, aria, sans-serif;
+  margin: 0 3%;
+
+}
+
+h1 {
+  font-size: 1.8em;
+  margin: .9em 0 0 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1.5em 0 0 0;
+}
+
+p {
+  line-height: 35px;
+
+}
+
+/* img {
+  max-width: 100%;
+  height: auto;
+} */
+
+/* filter (effect) params HERE 👇🏾*/
+
+
+figure {
+  border: 5px black solid;
+  border-radius: 5px;
+  color: white;
+  margin: 0 0 25px 0;
+  padding: 10px;
+  text-align: center;
+
+}
+
+figcaption {
+  font-size: .8em;
+}
+
 /* Look up a media query property */
 
+@media screen and (max-width: 1200px) {
+  body .container {
+    background-color: rebeccapurple;
+    float: left;
 
+  }
+
+  p {
+    text-align: center;
+
+
+  }
+}
+
+@media screen and (max-width: 980px) {
+  body .container {
+    background-color: #ee4d22;
+    float: none;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  body .container {
+    background-color: pink;
+    float: none;
+    text-align: left;
+  }
+
+  p {
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  body .container {
+    background-color: yellow;
+    float: left;
+
+  }
+
+  p {
+    text-align: left;
+
+
+  }
+}

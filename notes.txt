@@ -1,0 +1,21 @@
+  <figure>
+    <img src="https://picsum.photos/200/300" class="img-fluid" alt="Trulli" id="two">
+    <figcaption>Place Kittens are Great!</figcaption>
+  </figure>
+
+
+  <img src="https://picsum.photos/500/600" alt="Trulli" id="two">
+
+
+             <h2>Box Column</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aliquid nam vitae saepe quasi autem. Quos
+          delectus eligendi ipsum nam blanditiis minima eum, qui, est consequuntur beatae deserunt obcaecati ea. Lorem
+          ipsum dolor sit amet consectetur adipisicing elit. Error magni explicabo fugiat est neque obcaecati sit atque,
+          necessitatibus minus odio asperiores cum laborum commodi distinctio earum alias labore beatae laboriosam.</p>
+
+        <br>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa sunt tenetur fugiat. A eius optio tempore
+          nostrum
+          error iste qui neque sed harum. Earum voluptatem eos assumenda, corporis aspernatur harum!</p>
+
